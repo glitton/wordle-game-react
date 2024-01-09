@@ -18,7 +18,7 @@ function GuessInput({ handleSubmittedGuess }) {
         minLength={5}
         maxLength={5}
         pattern='[A-Za-z]{5}'
-        title='5 letter country word'
+        title='5 letter word'
         value={tentativeGuess}
         onChange={(event) => {
           const nextGuess = event.target.value.toUpperCase();
