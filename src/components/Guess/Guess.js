@@ -4,7 +4,7 @@ import { checkGuess } from "../../game-helpers";
 
 function Guess({ value, answer }) {
   const result = checkGuess(value, answer);
-  console.log({ result });
+  // console.log({ result });
 
   function Cell({ letter, status }) {
     const className = status ? `cell ${status}` : "cell";
